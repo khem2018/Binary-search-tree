@@ -1,15 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[103]:
-
-
-
-
-
-# In[207]:
-
-
 class Bst:
     class Node:
         def __init__(self, data):
@@ -42,82 +33,3 @@ class Bst:
         self.in_order_traversal(root.l_child)
         print(root.data)
         self.in_order_traversal(root.r_child)
-
-
-# In[208]:
-
-
-r = Node(3)
-
-
-# In[209]:
-
-
-tree = Bst()
-
-
-# In[210]:
-
-
-tree.insert_binary(r, Node(2))
-
-
-# In[211]:
-
-
-tree.insert_binary(r, Node(4))
-
-
-# In[212]:
-
-
-tree.insert_binary(r, Node(1))
-
-
-# In[213]:
-
-
-tree.insert_binary(r, Node(6))
-
-
-# In[214]:
-
-
-tree.in_order_traversal(r)
-
-
-# In[181]:
-
-
-tree.insert_binary(r, Node(5))
-
-
-# In[177]:
-
-
-r.r_child.data
-
-
-# In[178]:
-
-
-r.l_child.l_child.data
-
-
-# In[179]:
-
-
-r.r_child.r_child.data
-
-
-# In[193]:
-
-
-r.r_child.r_child.l_child.data
-
-
-# In[ ]:
-
-
-
-
